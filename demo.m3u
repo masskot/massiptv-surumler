@@ -1,0 +1,30 @@
+#EXTM3U
+# MASSIPTV demo playlist for app review and store screenshots (Faz 17.2, BELGELER/122).
+# MASSIPTV is a player only and ships no content; this list is NOT built into the app.
+# Every item is freely licensed or a public test stream provided for player developers:
+#   Big Buck Bunny  (c) copyright 2008, Blender Foundation / www.bigbuckbunny.org - CC BY 3.0
+#   Elephants Dream (c) copyright 2006, Blender Foundation / Netherlands Media Art Institute / www.elephantsdream.org - CC BY 2.5
+#   Sintel          (c) copyright Blender Foundation / durian.blender.org - CC BY 3.0
+#   Tears of Steel  (CC) Blender Foundation / mango.blender.org - CC BY 3.0
+#   Caminandes      (CC) Blender Foundation / caminandes.com - CC BY 3.0
+#   Live test stream: Unified Streaming public HLS test stream; 24/7 items are HLS versions of the open movies.
+#EXTINF:-1 tvg-id="demo.live" group-title="Demo Live",Live Test Stream
+https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8
+#EXTINF:-1 tvg-id="demo.bbb" group-title="Demo Live",Big Buck Bunny 24/7
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-id="demo.tos" group-title="Demo Live",Tears of Steel 24/7
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 group-title="Blender Open Movies",Big Buck Bunny (2008)
+https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+#EXTINF:-1 group-title="Blender Open Movies",Elephants Dream (2006)
+https://download.blender.org/ED/elephantsdream-720-h264-st-aac.mov
+#EXTINF:-1 group-title="Blender Open Movies",Sintel (2010)
+https://download.blender.org/durian/movies/Sintel.2010.1080p.mkv
+#EXTINF:-1 group-title="Blender Open Movies",Tears of Steel (2012)
+https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov
+#EXTINF:-1 group-title="Caminandes",Caminandes S01E01 Llama Drama
+https://archive.org/download/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+#EXTINF:-1 group-title="Caminandes",Caminandes S01E02 Gran Dillama
+https://archive.org/download/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+#EXTINF:-1 group-title="Caminandes",Caminandes S01E03 Llamigos
+https://archive.org/download/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
